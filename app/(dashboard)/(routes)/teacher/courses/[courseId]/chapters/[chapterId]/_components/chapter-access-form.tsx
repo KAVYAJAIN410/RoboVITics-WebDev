@@ -49,7 +49,7 @@ export const ChapterAccessForm = ({
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
-            isFree: !!initialData.isFree,
+            isFree: true,
         },
     });
 
