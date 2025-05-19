@@ -115,11 +115,11 @@ const ChapterIdPage = async ({
                                     Access Settings
                                 </h2>
                             </div>
-                            {/* <ChapterAccessForm
+                            <ChapterAccessForm
                                 initialData={chapter}
                                 courseId={params.courseId}
                                 chapterId={params.chapterId}
-                            /> */}
+                            />
                         </div>
                     </div>
                     <div>
